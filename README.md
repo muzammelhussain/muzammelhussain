@@ -1,7 +1,7 @@
 <!-- Banner Image -->
 <!-- Banner Image -->
 <p align="center">
-  <img src="https://www.canva.com/design/DAG9EBOhBTM/9hN0gNNPShxlfsADhZyd9g/view" />
+  <img src="https://www.canva.com/design/DAG9EBOhBTM/KQqMU56C01l_FvfCoAnJqw/edit?utm_content=DAG9EBOhBTM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" />
 </p>
 
 
