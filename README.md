@@ -1,14 +1,15 @@
 <!-- Banner Image -->
 <!-- Banner Image -->
 <p align="center">
-  <img src="https://www.canva.com/design/DAG9EBOhBTM/KQqMU56C01l_FvfCoAnJqw/edit?utm_content=DAG9EBOhBTM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" />
+  <img src="banner.jpg
+" />
 </p>
 
 
 ---
 
-## 👋 Hi, I'm Muzammel Hossain  
-### 💻 Frontend Developer | React Developer
+## 👋 Hi, I'm Muzammel Hussain  
+### 💻 Fullstack Developer | React Developer
 
 ---
 
