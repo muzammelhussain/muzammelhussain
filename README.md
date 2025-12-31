@@ -65,8 +65,8 @@ My goal is to create **clean UI**, write **readable code**, and continuously gro
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=muzammelhussain&show_icons=true&theme=react" height="160"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=muzammelhussain&layout=compact&theme=react" height="160"/>
+  <img src="https://github-readme-stats.vercel.app/api?user=muzammelhussain&show_icons=true&theme=react" height="160"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?user=muzammelhussain&layout=compact&theme=react" height="160"/>
 </p>
 
 ---
