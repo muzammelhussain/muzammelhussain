@@ -1,11 +1,9 @@
 <!-- Banner Image -->
-<div style="position: relative; width: 100%; height: 0; padding-top: 25.0000%;
- padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
- border-radius: 8px; will-change: transform;">
-  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
-    src="https://www.canva.com/design/DAG9EBOhBTM/9hN0gNNPShxlfsADhZyd9g/watch?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
-  </iframe>
-</div>
+<!-- Banner Image -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f172a,100:020617&height=260&section=header&text=MUZAMMEL%20HUSSAIN&fontSize=48&fontAlignY=40&fontColor=8b5cf6&desc=FULL%20STACK%20DEVELOPER&descAlignY=65&descSize=22&descColor=38bdf8" />
+</p>
+
 
 ---
 
