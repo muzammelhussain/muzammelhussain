@@ -6,7 +6,6 @@
     src="https://www.canva.com/design/DAG9EBOhBTM/9hN0gNNPShxlfsADhZyd9g/watch?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
   </iframe>
 </div>
-<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAG9EBOhBTM&#x2F;9hN0gNNPShxlfsADhZyd9g&#x2F;watch?utm_content=DAG9EBOhBTM&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">Programmer Modern Blue Linkedin Background Photo</a> by Abdul Ahad
 
 ---
 
