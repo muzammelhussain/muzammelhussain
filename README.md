@@ -1,7 +1,7 @@
 <!-- Banner Image -->
 <!-- Banner Image -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f172a,100:020617&height=260&section=header&text=MUZAMMEL%20HUSSAIN&fontSize=48&fontAlignY=40&fontColor=8b5cf6&desc=FULL%20STACK%20DEVELOPER&descAlignY=65&descSize=22&descColor=38bdf8" />
+  <img src="https://www.canva.com/design/DAG9EBOhBTM/9hN0gNNPShxlfsADhZyd9g/view" />
 </p>
 
 
