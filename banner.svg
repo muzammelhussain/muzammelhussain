@@ -1,1 +1,108 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- ===== Background & Gradients ===== -->
+  <defs>
+    <!-- Background gradient -->
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#020617">
+        <animate attributeName="stop-color"
+          values="#020617;#0f172a;#020617"
+          dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#0f172a">
+        <animate attributeName="stop-color"
+          values="#0f172a;#020617;#0f172a"
+          dur="6s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <!-- Name gradient -->
+    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#ec4899"/>
+    </linearGradient>
+  </defs>
+
+  <!-- ===== Background ===== -->
+  <rect width="1200" height="320" fill="url(#bg)" />
+
+  <!-- ===== Name ===== -->
+  <text x="80" y="140"
+        font-size="52"
+        font-weight="700"
+        font-family="Segoe UI, sans-serif"
+        fill="url(#nameGrad)">
+    MUZAMMEL HUSSAIN
+  </text>
+
+  <!-- ===== Role ===== -->
+  <text x="80" y="185"
+        font-size="24"
+        font-family="Segoe UI, sans-serif"
+        fill="#38bdf8"
+        opacity="0">
+    FULL STACK DEVELOPER
+    <animate attributeName="opacity"
+             from="0" to="1"
+             dur="1.5s"
+             begin="0.5s"
+             fill="freeze"/>
+  </text>
+
+  <!-- ===== Tech Icons (Animated) ===== -->
+  <g font-family="Segoe UI, sans-serif" font-weight="600" font-size="14">
+
+    <!-- HTML -->
+    <g transform="translate(720,95)">
+      <rect width="60" height="36" rx="6" fill="#e34f26"/>
+      <text x="30" y="24" text-anchor="middle" fill="#fff">HTML</text>
+      <animateTransform attributeName="transform"
+        type="translate"
+        values="720 95;720 88;720 95"
+        dur="3s" repeatCount="indefinite"/>
+    </g>
+
+    <!-- CSS -->
+    <g transform="translate(800,135)">
+      <rect width="60" height="36" rx="6" fill="#1572b6"/>
+      <text x="30" y="24" text-anchor="middle" fill="#fff">CSS</text>
+      <animateTransform attributeName="transform"
+        type="translate"
+        values="800 135;800 128;800 135"
+        dur="3.2s" repeatCount="indefinite"/>
+    </g>
+
+    <!-- JS -->
+    <g transform="translate(880,95)">
+      <rect width="60" height="36" rx="6" fill="#f7df1e"/>
+      <text x="30" y="24" text-anchor="middle" fill="#000">JS</text>
+      <animateTransform attributeName="transform"
+        type="translate"
+        values="880 95;880 88;880 95"
+        dur="2.8s" repeatCount="indefinite"/>
+    </g>
+
+    <!-- React -->
+    <g transform="translate(960,135)">
+      <rect width="70" height="36" rx="6" fill="#61dafb"/>
+      <text x="35" y="24" text-anchor="middle" fill="#000">REACT</text>
+      <animateTransform attributeName="transform"
+        type="translate"
+        values="960 135;960 128;960 135"
+        dur="3.4s" repeatCount="indefinite"/>
+    </g>
+
+    <!-- Node -->
+    <g transform="translate(1040,95)">
+      <rect width="70" height="36" rx="6" fill="#3c873a"/>
+      <text x="35" y="24" text-anchor="middle" fill="#fff">NODE</text>
+      <animateTransform attributeName="transform"
+        type="translate"
+        values="1040 95;1040 88;1040 95"
+        dur="3s" repeatCount="indefinite"/>
+    </g>
+
+  </g>
+
+</svg>
 
