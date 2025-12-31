@@ -1,36 +1,8 @@
 <!-- Banner Image -->
 <p align="center">
-  <svg width="1200" height="320" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg">
-
-    <defs>
-      <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="0%">
-        <stop offset="0%" stop-color="#020617">
-          <animate attributeName="stop-color"
-            values="#020617;#0f172a;#020617"
-            dur="6s" repeatCount="indefinite"/>
-        </stop>
-        <stop offset="100%" stop-color="#0f172a">
-          <animate attributeName="stop-color"
-            values="#0f172a;#020617;#0f172a"
-            dur="6s" repeatCount="indefinite"/>
-        </stop>
-      </linearGradient>
-    </defs>
-
-    <rect width="1200" height="320" fill="url(#bg)" />
-
-    <text x="80" y="140" font-size="52" font-weight="700"
-          font-family="Segoe UI, sans-serif" fill="#a5b4fc">
-      MUZAMMEL HUSSAIN
-    </text>
-
-    <text x="80" y="185" font-size="24"
-          font-family="Segoe UI, sans-serif" fill="#38bdf8">
-      FULL STACK DEVELOPER
-    </text>
-
-  </svg>
+  <img src="banner.svg" alt="Muzammel Hussain | Full Stack Developer" />
 </p>
+
 
 
 
