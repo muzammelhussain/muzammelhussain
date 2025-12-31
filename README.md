@@ -65,8 +65,8 @@ My goal is to create **clean UI**, write **readable code**, and continuously gro
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=your-username&show_icons=true&theme=react" height="160"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=your-username&layout=compact&theme=react" height="160"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=muzammelhussain&show_icons=true&theme=react" height="160"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=muzammelhussain&layout=compact&theme=react" height="160"/>
 </p>
 
 ---
@@ -74,7 +74,7 @@ My goal is to create **clean UI**, write **readable code**, and continuously gro
 ## 🔥 GitHub Streak
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=your-username&theme=react" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=muzammelhussain&theme=react" />
 </p>
 
 ---
