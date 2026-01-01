@@ -6,13 +6,13 @@
 ---
 
 ## 👋 Hi, I'm Muzammel Hussain  
-### 💻 Fullstack Developer | React Developer
+### 💻 Mern Stack Developer
 
 ---
 
 ## 🧑‍💻 About Me
 
-I am a passionate Fullstack Developer focused on building modern, responsive web applications.  
+I am a passionate Mern-stack Developer focused on building modern, responsive web applications.  
 I enjoy working with **React**, **Node.js**, and other web technologies.  
 My goal is to create **clean UI**, write **readable code**, and continuously grow as a professional developer.
 
