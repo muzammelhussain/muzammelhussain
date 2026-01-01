@@ -41,7 +41,7 @@
         font-family="Segoe UI, sans-serif"
         fill="#38bdf8"
         opacity="0">
-    FULL STACK DEVELOPER
+    MERN STACK DEVELOPER
     <animate attributeName="opacity"
              from="0" to="1"
              dur="1.5s"
