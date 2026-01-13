@@ -1,108 +1,126 @@
 <svg width="1200" height="320" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg">
 
-  <!-- ===== Background & Gradients ===== -->
+  <!-- ===== DEFINITIONS ===== -->
   <defs>
-    <!-- Background gradient -->
+    <!-- Background -->
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#020617">
-        <animate attributeName="stop-color"
-          values="#020617;#0f172a;#020617"
-          dur="6s" repeatCount="indefinite"/>
-      </stop>
-      <stop offset="100%" stop-color="#0f172a">
-        <animate attributeName="stop-color"
-          values="#0f172a;#020617;#0f172a"
-          dur="6s" repeatCount="indefinite"/>
-      </stop>
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="100%" stop-color="#000000"/>
     </linearGradient>
 
-    <!-- Name gradient -->
+    <!-- Neon Name Gradient -->
     <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#6366f1"/>
-      <stop offset="100%" stop-color="#ec4899"/>
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#a855f7"/>
     </linearGradient>
+
+    <!-- Neon Glow -->
+    <filter id="neonGlow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Strong Glow -->
+    <filter id="strongGlow">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
   </defs>
 
-  <!-- ===== Background ===== -->
-  <rect width="1200" height="320" fill="url(#bg)" />
+  <!-- ===== BACKGROUND ===== -->
+  <rect width="1200" height="320" fill="url(#bg)"/>
 
-  <!-- ===== Name ===== -->
-  <text x="80" y="140"
+  <!-- ===== NAME ===== -->
+  <text x="80" y="135"
         font-size="52"
-        font-weight="700"
+        font-weight="800"
         font-family="Segoe UI, sans-serif"
-        fill="url(#nameGrad)">
+        fill="url(#nameGrad)"
+        filter="url(#strongGlow)">
     MUZAMMEL HUSSAIN
   </text>
 
-  <!-- ===== Role ===== -->
-  <text x="80" y="185"
+  <!-- ===== ROLE ===== -->
+  <text x="80" y="180"
         font-size="24"
         font-family="Segoe UI, sans-serif"
-        fill="#38bdf8"
+        fill="#22d3ee"
+        filter="url(#neonGlow)"
         opacity="0">
-    MERN STACK DEVELOPER
+    FULL STACK DEVELOPER • LAMP & MERN
     <animate attributeName="opacity"
              from="0" to="1"
-             dur="1.5s"
+             dur="1.4s"
+             begin="0.5s"
+             fill="freeze"/>
+    <animateTransform
+             attributeName="transform"
+             type="translate"
+             from="0 14" to="0 0"
+             dur="1.4s"
              begin="0.5s"
              fill="freeze"/>
   </text>
 
-  <!-- ===== Tech Icons (Animated) ===== -->
-  <g font-family="Segoe UI, sans-serif" font-weight="600" font-size="14">
+  <!-- ===== NEON TECH CARDS ===== -->
+  <g font-family="Segoe UI, sans-serif" font-weight="700" font-size="14">
 
-    <!-- HTML -->
-    <g transform="translate(720,95)">
-      <rect width="60" height="36" rx="6" fill="#e34f26"/>
-      <text x="30" y="24" text-anchor="middle" fill="#fff">HTML</text>
-      <animateTransform attributeName="transform"
-        type="translate"
-        values="720 95;720 88;720 95"
+    <!-- PHP -->
+    <g transform="translate(720,100)" filter="url(#neonGlow)">
+      <rect width="70" height="38" rx="10"
+        fill="none" stroke="#a855f7" stroke-width="2"/>
+      <text x="35" y="25" text-anchor="middle" fill="#a855f7">PHP</text>
+      <animateTransform type="translate"
+        values="720 100;720 92;720 100"
         dur="3s" repeatCount="indefinite"/>
     </g>
 
-    <!-- CSS -->
-    <g transform="translate(800,135)">
-      <rect width="60" height="36" rx="6" fill="#1572b6"/>
-      <text x="30" y="24" text-anchor="middle" fill="#fff">CSS</text>
-      <animateTransform attributeName="transform"
-        type="translate"
-        values="800 135;800 128;800 135"
-        dur="3.2s" repeatCount="indefinite"/>
+    <!-- Laravel -->
+    <g transform="translate(800,145)" filter="url(#neonGlow)">
+      <rect width="90" height="38" rx="10"
+        fill="none" stroke="#f43f5e" stroke-width="2"/>
+      <text x="45" y="25" text-anchor="middle" fill="#f43f5e">LARAVEL</text>
+      <animateTransform type="translate"
+        values="800 145;800 137;800 145"
+        dur="3.4s" repeatCount="indefinite"/>
     </g>
 
-    <!-- JS -->
-    <g transform="translate(880,95)">
-      <rect width="60" height="36" rx="6" fill="#f7df1e"/>
-      <text x="30" y="24" text-anchor="middle" fill="#000">JS</text>
-      <animateTransform attributeName="transform"
-        type="translate"
-        values="880 95;880 88;880 95"
+    <!-- MySQL -->
+    <g transform="translate(900,100)" filter="url(#neonGlow)">
+      <rect width="80" height="38" rx="10"
+        fill="none" stroke="#38bdf8" stroke-width="2"/>
+      <text x="40" y="25" text-anchor="middle" fill="#38bdf8">MYSQL</text>
+      <animateTransform type="translate"
+        values="900 100;900 92;900 100"
         dur="2.8s" repeatCount="indefinite"/>
     </g>
 
     <!-- React -->
-    <g transform="translate(960,135)">
-      <rect width="70" height="36" rx="6" fill="#61dafb"/>
-      <text x="35" y="24" text-anchor="middle" fill="#000">REACT</text>
-      <animateTransform attributeName="transform"
-        type="translate"
-        values="960 135;960 128;960 135"
-        dur="3.4s" repeatCount="indefinite"/>
+    <g transform="translate(990,145)" filter="url(#neonGlow)">
+      <rect width="80" height="38" rx="10"
+        fill="none" stroke="#22d3ee" stroke-width="2"/>
+      <text x="40" y="25" text-anchor="middle" fill="#22d3ee">REACT</text>
+      <animateTransform type="translate"
+        values="990 145;990 137;990 145"
+        dur="3.6s" repeatCount="indefinite"/>
     </g>
 
     <!-- Node -->
-    <g transform="translate(1040,95)">
-      <rect width="70" height="36" rx="6" fill="#3c873a"/>
-      <text x="35" y="24" text-anchor="middle" fill="#fff">NODE</text>
-      <animateTransform attributeName="transform"
-        type="translate"
-        values="1040 95;1040 88;1040 95"
-        dur="3s" repeatCount="indefinite"/>
+    <g transform="translate(1080,100)" filter="url(#neonGlow)">
+      <rect width="80" height="38" rx="10"
+        fill="none" stroke="#4ade80" stroke-width="2"/>
+      <text x="40" y="25" text-anchor="middle" fill="#4ade80">NODE</text>
+      <animateTransform type="translate"
+        values="1080 100;1080 92;1080 100"
+        dur="3.1s" repeatCount="indefinite"/>
     </g>
 
   </g>
 
 </svg>
-
