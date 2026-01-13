@@ -1,29 +1,31 @@
 <!-- Banner Image -->
 <p align="center">
-  <img src="banner.svg" alt="Muzammel Hussain | Full Stack Developer" />
+  <img src="banner.svg" alt="Muzammel Hussain | Full Stack Developer (LAMP & MERN)" />
 </p>
 
 ---
 
 ## 👋 Hi, I'm Muzammel Hussain  
-### 💻 Mern Stack Developer
+### 💻 Full Stack Developer (LAMP & MERN)
 
 ---
 
 ## 🧑‍💻 About Me
 
-I am a passionate Mern-stack Developer focused on building modern, responsive web applications.  
-I enjoy working with **React**, **Node.js**, and other web technologies.  
-My goal is to create **clean UI**, write **readable code**, and continuously grow as a professional developer.
+I’m a passionate **Full Stack Developer** with hands-on experience in both  
+**LAMP (PHP, Laravel, MySQL)** and **MERN (MongoDB, Express, React, Node.js)** stacks.
+
+I enjoy building **modern, responsive, and scalable web applications**, focusing on clean UI, readable and maintainable code, and strong backend architecture.  
+My goal is to deliver high-quality solutions while continuously growing as a professional developer.
 
 ---
 
 ## 🚀 Current Activities
 
-- 🌱 Exploring **Next.js** and advanced **React patterns**
-- 🛠️ Developing a **Tourism Website**
-- 📚 Improving my **JavaScript, React & Node.js** skills
-- 🔍 Learning best practices for **UI/UX design & application performance**
+- 🌱 Learning **Next.js** for high-performance frontend applications  
+- 🛠️ Building full-stack projects using **Laravel & MERN stack**
+- 📚 Improving **JavaScript, PHP, React, Node.js & MySQL** skills
+- 🔍 Learning best practices for **API design, UI/UX & performance optimization**
 
 ---
 
@@ -36,7 +38,12 @@ My goal is to create **clean UI**, write **readable code**, and continuously gro
 
 ### ⚙️ Backend
 <p>
-  <img src="https://skillicons.dev/icons?i=nodejs,express,mongodb" />
+  <img src="https://skillicons.dev/icons?i=php,laravel,nodejs,express" />
+</p>
+
+### 🗄️ Databases
+<p>
+  <img src="https://skillicons.dev/icons?i=mysql,mongodb" />
 </p>
 
 ### 🧰 Tools & Platforms
@@ -62,8 +69,6 @@ My goal is to create **clean UI**, write **readable code**, and continuously gro
 
 ---
 
-
-
 ## 📊 GitHub Stats
 
 <p align="center">
@@ -79,7 +84,7 @@ My goal is to create **clean UI**, write **readable code**, and continuously gro
   <img src="https://streak-stats.demolab.com/?user=muzammelhussain&theme=react" />
 </p>
 
-
 ---
 
+⭐ **Open to internship opportunities, junior roles, and freelance projects.**  
 ⭐ **Feel free to explore my repositories and projects!**
